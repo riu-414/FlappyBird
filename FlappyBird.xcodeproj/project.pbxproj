@@ -14,7 +14,7 @@
 		4067958A26EA2DDF00718B9B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4067958926EA2DDF00718B9B /* Assets.xcassets */; };
 		4067958D26EA2DDF00718B9B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4067958B26EA2DDF00718B9B /* LaunchScreen.storyboard */; };
 		4067959526EA5DEA00718B9B /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4067959426EA5DEA00718B9B /* GameScene.swift */; };
-		407B52FA26F8772A004F8B5C /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 407B52F926F8772A004F8B5C /* sound.mp3 */; };
+		407B530826F8915A004F8B5C /* sound.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 407B530726F8915A004F8B5C /* sound.mp3 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +27,7 @@
 		4067958C26EA2DDF00718B9B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4067958E26EA2DDF00718B9B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4067959426EA5DEA00718B9B /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		407B52F926F8772A004F8B5C /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = sound.mp3; path = ../../../../Downloads/sound.mp3; sourceTree = "<group>"; };
+		407B530726F8915A004F8B5C /* sound.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound.mp3; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -68,7 +68,7 @@
 				4067958926EA2DDF00718B9B /* Assets.xcassets */,
 				4067958B26EA2DDF00718B9B /* LaunchScreen.storyboard */,
 				4067958E26EA2DDF00718B9B /* Info.plist */,
-				407B52F926F8772A004F8B5C /* sound.mp3 */,
+				407B530726F8915A004F8B5C /* sound.mp3 */,
 			);
 			path = FlappyBird;
 			sourceTree = "<group>";
@@ -130,10 +130,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407B52FA26F8772A004F8B5C /* sound.mp3 in Resources */,
 				4067958D26EA2DDF00718B9B /* LaunchScreen.storyboard in Resources */,
 				4067958A26EA2DDF00718B9B /* Assets.xcassets in Resources */,
 				4067958826EA2DDD00718B9B /* Main.storyboard in Resources */,
+				407B530826F8915A004F8B5C /* sound.mp3 in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
