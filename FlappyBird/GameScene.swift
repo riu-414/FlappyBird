@@ -247,9 +247,9 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
         
         //鳥の画像サイズを取得
         let birdSize = SKTexture(imageNamed: "bird_a").size()
-        //アイテムを鳥のサイズと同じにする
+        //アイテムのサイズを指定する
         let item_size = birdSize.height * 1
-
+        
         //空の中央位置（y座標）を取得
         let groundSize = SKTexture(imageNamed: "ground").size()
         let sky_center_y = groundSize.height + (self.frame.size.height - groundSize.height) / 2
@@ -265,6 +265,7 @@ class GameScene: SKScene, SKPhysicsContactDelegate {
             //アイテムを作成
             let itemScoreNode = SKSpriteNode(texture: itemTexture)
             itemScoreNode.position = CGPoint(x: 0, y: sky_center_y)
+            itemScoreNode.size = CGSize(width: 100.0, height: 100.0)
             //スプライトに物理演算を設定
             itemScoreNode.physicsBody = SKPhysicsBody(circleOfRadius: item_size)
             
